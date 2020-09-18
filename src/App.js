@@ -11,12 +11,16 @@ const inventory = {
   a: { name: "🧉 Yerba Mate", price: 10 },
   b: { name: "☕️ Coffee", price: 15 },
   c: { name: "🍵 Tea", price: 7.5 },
+  d: { name: "🥤 Soda", price: 4 },
+  e: { name: "🥛 Milk", price: 6.5 },
 };
 
 const destinations = {
   US: 25,
   CA: 35,
   CO: 45,
+  UK: 65,
+  DL: 55,
 };
 
 const cartState = atom({

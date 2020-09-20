@@ -13,6 +13,7 @@ const inventory = {
   c: { name: "🍵 Tea", price: 7.5 },
   d: { name: "🥤 Soda", price: 4 },
   e: { name: "🥛 Milk", price: 6.5 },
+  f: { name: "🥛 Cream", price: 10.5 },
 };
 
 const destinations = {
@@ -21,6 +22,7 @@ const destinations = {
   CO: 45,
   UK: 65,
   DL: 55,
+  CH: 83,
 };
 
 const cartState = atom({
